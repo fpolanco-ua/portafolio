@@ -1,0 +1,44 @@
+body {
+
+    /* Ubicación de la imagen */
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/fondo.jpg); 
+
+    /* Para dejar la imagen de fondo centrada, vertical y
+
+horizontalmente */
+
+    background-position: center center;
+
+    /* Para que la imagen de fondo no se repita */
+
+    background-repeat: no-repeat;
+
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+    background-attachment: fixed;
+
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+    background-size: cover;
+
+    /* Se muestra un color de fondo mientras se está cargando la imagen
+
+de fondo o si hay problemas para cargarla */
+ 
+
+}
+
+.oscurecer {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.5)),
+        url(../img/Foto.png);
+    height: 285px;
+    width: 240px;
+
+}
